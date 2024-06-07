@@ -29,7 +29,7 @@ reduce()
 Function expressions
 Arrow functions
 JavaScript Oject
-What is THIS
+THIS keyword
 Constructors
 Classes
 STATIC keyword
