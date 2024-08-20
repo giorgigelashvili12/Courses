@@ -15,14 +15,6 @@ name = 'alice';
 // const variable;
 // error
 
-// 3. Block Scope (EARLY FEATURE)
-// can be declared and used in the block it is declared
-if (true) {
-    const greet = 'Hello!';
-    console.log(greet);
-    // just like 'let' it can be used in the block it is declared.
-}
-
 // Summary
 // const keyword is used to declare a constant variable
 // it cannot be reassigned

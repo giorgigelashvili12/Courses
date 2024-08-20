@@ -56,10 +56,18 @@ demo = "Bye!"
 // - Javascript is dynamically typed, which means that variables can hold values of any data type.
 //   Common data types include:
 
-// 3. სხვადასხვა ცვლადის მონაცემები
+// 3. სხვადასხვა ცვლადის მონაცემები არის დინამიური და შეიძლება ჰქონდეს სხვადასხვა მონაცემი
 
 // * Primitve Types * - 'number', 'string', 'boolean', 'null', 'undefined', 'symbol'
 // * Reference Types * - 'object', 'array', 'function', 'map', 'date', 'set'
+
+// * პრიმიტიული ტიპები * - 'number', 'string', 'boolean', 'null', 'undefined', 'symbol'
+// * რთული სტრუქტურის * - 'object', 'array', 'function', 'map', 'date', 'set'
+
+// პრიმიტიული - მარტივი აგებულების, არ გააჩნია მეთოდები და ატრიბუტები/ფუნქციები
+// რთული სტრუქტურის - მათ კიდევ აქვთ მეთოდებიც და ფუნქციებით, შესაძლებელია მოდიფიცირება, დამატება და წაშლა.
+
+//////////////////////////////////////////////////////////////////////////////
 
 // 4. Variable Naming Rules
 // - Variable names are case-sensetive, which means that 'age' and 'Age' are different here.
@@ -67,21 +75,17 @@ demo = "Bye!"
 //   must not start with a digit.
 // - Avoid using javascript reserved keywords, like 'let', 'const', 'var', 'function' and etc. as variable names.
 
-// 5. Scope
-// - Variables in Javascript have function-level scope when declared with 'var' and block-level scope
-//   when declared with 'let' or 'const'.
-// Since we dont know functions and if statements yet, I will avoid function and block scope.
+// 5. ცვლადის დასახელების წესები
+// - ცვლადებში ასოების ზომაშიც კი განსხვავებაა, მაგ: 'age' და 'Age' განსხვავდებიან.
+// - შეიძლება შეიცავდნენ ასოებს, რიცხვებს, ქვედატირეს და დოლარის ნიშანს, მაგრამ ისინი არ უნდა იწყებოდნენ რიცხვით.
+// - არ დაარქვა სახელებს ჯავასკრიპტის საკვანძო სიტყვები (let, const, var, function).
 
-// *Hoisting* 
-// In javascript, variables declared with 'var' are hoisted to the top of their scope
-// during compilation, which means you can use the variable before it is declared in the code. 
-// However, the variable will be initialized with 'undefined' until its actual assigment in the code.
+//////////////////////////////////////////////////////////////////////////////
+
 console.log(age); // undefined
 // !! - console.log() is a function which allows you to output whatever you put in () in the console.
-var age = 20;
+// !! - console.log() არის ფუნქცია რომელიც გაძლევს უფლებას რომ გამოიტანო ის რაც არის () ჩასმული.
 
-// CONCLUSION - Variables are fundamental building blocks in javascript, enabling you to
-//              store, retrieve, and manipulate data dynamically within your programs.
 
 // Values/Types
 // Booleans - true, false
