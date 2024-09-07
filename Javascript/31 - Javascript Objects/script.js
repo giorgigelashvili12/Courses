@@ -80,3 +80,45 @@ const person = {
         return this.firstName + " " + this.lastName;
     }
 };
+// .this method refers to the person object
+// this.firstName = firstName property of person object
+// this.lastName = lastName property of person object
+
+// Propery as value
+const name1 = person5.name;
+// or
+const name2 = person4[name];
+
+
+// Accessing properties and working with them
+const simpleInfo = `My name is ${person1.name}, and my surname is ${person1.surname}`;
+
+
+// Object Methods And Functions
+// deleting properties - delete keyword
+delete person.age; // deleted person age property
+console.log(person);
+
+
+// Nested Objects
+const demoInfo = {
+    name: 'Subject-001',
+    surname: ' ',
+    id: 5115,
+    testedOn: {
+        corona: true,
+        monkeyPox: true,
+        fever: true,
+        rabies: false
+    }
+};
+// Accessing nested object & its properties
+demoInfo.testedOn; // Whole nested object
+demoInfo.testedOn.corona; // true
+demoInfo.testedOn.monkeyPox; // true
+demoInfo.testedOn.fever; // true
+demoInfo.testedOn.rabies; // false
+
+
+// OBJECT CONSTRUCTORS
+// - this keyword
