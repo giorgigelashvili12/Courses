@@ -61,9 +61,22 @@ const person5 = new person4('George', 'Washington', 200);
 
 // Accessing properties
 // can access in two ways
+Array.property;
+// or
+Array[property];
 
 car.manufacturer; // 'Toyota
 car.model; // 'Prius'
 car.color; // 'SIlver'
 car.start(); // 'Car has started' (function/obj method)
 car.stop(); // 'Car has stopped' (function/obj method)
+
+
+// JS METHODS
+const person = {
+    firstName: "John",
+    lastName: "Pork",
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+};
