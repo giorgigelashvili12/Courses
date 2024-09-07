@@ -9,11 +9,11 @@ hello(goodbye);
 // a callback
 
 function hello(callback) {
-    // setTimeout(function () {
-    //     console.log('hello');
-    // }, 3000)
+    setTimeout(function () {
+        console.log('hello');
+    }, 3000)
     // console hello after 3 seconds
-    callback();
+    callback(); // call the callback func
 }
 
 function goodbye() {
