@@ -122,3 +122,53 @@ demoInfo.testedOn.rabies; // false
 
 // OBJECT CONSTRUCTORS
 // - this keyword
+function Person(name, surname, age) {
+    this.name = name;
+    this.surname = surname;
+    this.age = age;
+}
+
+// - new keyword
+const famMem1 = new Person('Bart', 'Simpson', 12);
+const famMem2 = new Person('Lisa', 'Simpson', 10);
+const famMem3 = new Person('Maggie', 'Simpson', 1);
+
+// contructor function method
+function Person1(race, nationality) {
+    this.race = race;
+    this.nationality = nationality;
+    this.fullDetails = () => {
+        return `Race is ${this.race}, and Nationality is ${this.nationality}`;
+    }
+}
+
+// Explicit Function Binding + methods
+// Function call(); Function apply();
+// They can be used for calling an object or with another as an argument
+
+// call() usage
+const fullName = {
+    fullName: () => {
+        return this.name + ' ' + this.surname;
+    }
+}
+
+// Return firstname and last name combined
+fullName.fullName.call(person1);
+
+// bind() - Function Borrowing
+// with this method, an object can borrow a method from another object.
+const person6 = {
+  firstName:"John",
+  lastName: "Doe",
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+
+const member = {
+  firstName:"Hege",
+  lastName: "Nilsen",
+}
+
+let fullName1 = person6.fullName.bind(member);
