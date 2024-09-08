@@ -1,0 +1,11 @@
+Javascript is the worlds most popular programming language. Its a programming language for
+web development. Its also very easy to learn.
+
+- Why Javascript?
+Javascript is one of the 3 languages all web-developers should learn
+- HTML (Not a programming language) - Define content of the webpages (Web-Skeleton)
+- CSS - specify and add styles to HTML/webpage content
+- JS - To program behaviours in HTML/webpage (Functionality)
+
+- How to download JS?
+No need to.
