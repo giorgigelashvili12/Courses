@@ -9,4 +9,4 @@ typeof 50; // Number
 
 typeof 'Hi'; // String
 
-typeof null; // Object
+typeof null; // Object        
