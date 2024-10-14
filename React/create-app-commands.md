@@ -11,14 +11,14 @@ npm create vite@latest
 ```
 Then enter your react project name you want.
 
-![test](./Read-Me-Content/frameworkSelection.png)
+![Select a framework: Vanilla, Vue, React, Preact, Lit, Svelte, Solid, Qwik, Others](1frameworkSelection.png)
 Now select React as your framework since you're working on react.
 
-![Select a variant: Typescript, Typescript + SWC, Javascript, Javascript + SWC](./Read-Me-Content/variantSelection.png)
+![Select a variant: Typescript, Typescript + SWC, Javascript, Javascript + SWC](2variantSelection.png)
 Now select Javascript since its more recommended.
 
 ### After these commands it should result like this:
-![Scaffolding project in C:\Your\Project\Location\react-app... Done. Now run: cd react-app-name, npm install, npm run dev](./Read-Me-Content/variantSelection.png)
+![Scaffolding project in C:\Your\Project\Location\react-app... Done. Now run: cd react-app-name, npm install, npm run dev](3variantSelection.png)
 
 ### First Command
 ```bash
