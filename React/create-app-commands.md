@@ -11,7 +11,7 @@ npm create vite@latest
 ```
 Then enter your react project name you want.
 
-![Select a framework: Vanilla, Vue, React, Preact, Lit, Svelte, Solid, Qwik, Others](./Read-Me-Content/frameworkSelection.png)
+![test](./Read-Me-Content/frameworkSelection.png)
 Now select React as your framework since you're working on react.
 
 ![Select a variant: Typescript, Typescript + SWC, Javascript, Javascript + SWC](./Read-Me-Content/variantSelection.png)
