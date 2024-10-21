@@ -9,3 +9,7 @@ localStorage.setItem("name", "John Doe");
 // getItem()
 // get/retrieve item from local storage
 localStorage.getItem("name");
+
+// more
+// removeItem() - remove item
+// clear() - clear stroage
